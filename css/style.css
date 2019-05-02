@@ -1,0 +1,37 @@
+body {
+
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-deck {
+  margin-bottom: 10px;
+}
+
+.container-fluid {
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: large;
+}
+
+.table {
+  text-align: center;
+}
+
+.card{
+  border-color: #FBCA03;
+}
+
+
+#collapseAnswer7 {
+  color: #FF0000;
+}

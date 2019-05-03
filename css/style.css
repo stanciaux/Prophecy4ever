@@ -1,6 +1,13 @@
 body {
 
 }
+.container {
+  padding-top: 70px;
+}
+
+#Vision{
+  margin-bottom: 70px
+}
 
 .card-columns {
   @include media-breakpoint-only(lg) {
